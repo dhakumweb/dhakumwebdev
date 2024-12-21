@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhakum</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="images/logo1.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+			
+        }
+        section {
+            padding: 40px 20px;
+        }
+		#logo{
+			border-radius:100px;
+		}
+        section#home {
+           
+            color: white;
+            text-align: center;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        section#home h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        section#home p {
+            font-size: 1.2rem;
+        }
+        section#services, section#about, section#contact {
+            background-color: #f4f4f4;
+            margin: 10px 0;
+        }
+        section h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .service-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            background-color: white;
+			
+        }
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+			
+        }
+		#ani{  
+		  animation-name: example;
+		  animation-duration: 4s;
+		  color:white;
+		}
+
+		@keyframes example {
+		  0%   {color: red;}
+		  25%  {color: yellow;}
+		  50%  {color: blue;}
+		  100% {color: green;}
+		}
+		#disc{
+			position:relative;
+			bottom:70px;
+			font-size: 1.2rem;
+		}
+		#review{
+		border-radius:5px;
+		
+		
+		}
+		#review:hover,#links:hover,#btn:hover{
+		transform:scale(1.1);
+		background-color:lightGreen;
+		trasition:2s;
+		}
+		#static:hover, #dynamic:hover, #e-com:hover{
+		transform:scale(0.9);
+		color:lightGreen;
+		}
+		#static, #dynamic, #e-com, #ser{
+		position:relative;
+		top:-78px;
+		}
+        footer {
+            
+            color: gray;
+            text-align: center;
+            padding: 10px 0;
+        }
+		hr{
+			color:lightGreen;
+		}
+    </style>
+</head>
+<body class="bg-dark text-light">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home"><img src="images/logo1.png" height="50px" alt="dhakum logo" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-success">
+                        <li class="nav-item">
+                            <a class="nav-link text-success" id="links" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" id="links" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" id="links" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" id="links" href="#Privacy">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1 id="ani">Welcome to Dhakum Shop</h1>
+        <p>We build amazing websites for your business needs.</p>
+    </section>
+	<section id="disc">
+		<h2 class="text-light">Discuss Your Idea</h2>
+		<center><p>Our Experts are ready to transform your ideas into valuable business results.</p>
+		<a href="https://wa.me/+919677951089" target="_blank"><button id="btn"class="btn btn-success">GET IN TOUCH</button></center></a>
+	</section>
+    <section id="services" class="bg-dark ">
+        <h2 class="text-light" id="ser">Our Services</h2>
+        <div class="services-container">
+            <div id="static">
+                <h3 class="text-success">Static Website</h3>
+				<BR/>
+				<ul class="text-light">
+					<li>FREE HOSTING 1 YR</li><p/>
+					<li>FREE DOMAIN 1 YR</li><p/>
+					<li>5 PAGES</li><p/>
+					<li>SOCIAL MEDIA INTEGRATIONS</li><p/>
+					<li>CONTACT FORM</li><p/>
+					<li>CLICK TO CALL & WHATSAPP</li><p/>
+					<li>RESPONSIVE WEBSITE</li><p/>
+					<li>1 YR SUPPORT</li>
+				</ul>
+				<center><div class="btn-card">
+					<a href="https://wa.me/+919677951089" target="_blank"><button class="btn btn-success">Rs 1,699</button></a>
+				</div></center>
+            </div>
+			
+            <div id="dynamic">
+                <h3 class="text-success">Dynamic Website</h3>
+                <BR/>
+				<ul class="text-light">
+					<li>FREE HOSTING 1 YR</li><p/>
+					<li>FREE DOMAIN 1 YR</li><p/>
+					<li>USER SIGNUP DETAILS</li><p/>
+					<li>DASHBOARD EDITABLE ACCESS</li><p/>
+					<li>SEO FRIENDLY</li><p/>
+					<li>WEBSITE VISITOR COUNTER</li><p/>
+					<li>RESPONSIVE WEBSITE</li><p/>
+					<li>1 YR SUPPORT</li>
+				</ul>
+				<center><div class="btn-card">
+					<a href="https://wa.me/+919677951089" target="_blank"><button class="btn btn-success">Rs 2,699</button></a>
+				</div></center>
+            </div>
+            <div id="e-com">
+                <h3 class="text-success">E-Commerce Website</h3>
+                <BR/>
+				<ul class="text-light">
+					<li>FREE HOSTING 1 YR</li><p/>
+					<li>100 PRODUCT PAGE</li><p/>
+					<li>15 PAGES</li><p/>
+					<li>USER SIGNUP DETAILS</li><p/>
+					<li>ORDER MANAGEMENT</li><p/>
+					<li>RAZORPAY PAYMENT GATEWAY</li><p/>
+					<li>WEBSITE VISITOR COUNTER</li><p/>
+					<li>1 YR SUPPORT</li>
+				</ul>
+				<center><div class="btn-card">
+					<a href="https://wa.me/+919677951089" target="_blank"><button class="btn btn-success">Rs 4,699</button></a>
+				</div></center>
+            </div>
+        </div>
+    </section>
+	<section id="reviews">
+	<h2 class="text-light">REVIEWS</h2>
+	<center><img src="images/5star.png" id="review"width="120px" height="100px"/>
+	<img src="images/review.jpg" id="review"width="120px" height="100px"/>
+	<img src="images/google5.jpg" id="review"width="120px" height="100px"/></center>
+	</section>
+
+    <section id="about" class="bg-dark">
+        <h2 class="text-light">About Us</h2>
+		
+        <center>
+		<img src="images/add.webp" width="200px" height="200px"/>
+		<p id="abouts"> Welcome to Dhakum, where innovation meets expertise in custom web development. We are a passionate team of skilled developers and designers dedicated to transforming your ideas into powerful, user-centric digital solutions.</p>
+		</center>
+		<br>
+	<div class="row" id="Privacy">
+	<div class="col-1"></div>
+	<div class="sm col-4" >
+	<h3>Quick Links</h3><br>
+	<p>
+	3/33 South Street Thirumal, Madurai-22
+	<hr>
+	<a href="tel:+919677951089" style="text-decoration:none;color:white"><i class="fa fa-phone" style="font-size:24px"></i> +91 9677951089</a>
+	<hr>
+	<a href="mailto:dhakumweb@gmail.com" style="text-decoration:none;color:white"><i class="fa fa-envelope" style="font-size:24px"></i> dhakumweb@gmail.com </a>
+	<hr>
+	<a href="privacy.html" style="text-decoration:none;color:white"><i class="fa fa-lock" style="font-size:24px"></i> Privacy Policy</a>
+	</p>
+	
+	</div>
+	<div class="col-2"></div>
+	<div class="sm col-4">
+	<h3>Follow us on</h3><br>
+	<p>
+	<a href="https://www.facebook.com/profile.php?id=61570673318176&mibextid=ZbWKwL" style="text-decoration:none;color:white">Facebook</a>
+	<hr>
+	<a href="https://www.instagram.com/dhakumweb?utm_source=qr" style="text-decoration:none;color:white">Instagram</a>
+	<hr>
+	<a href="https://www.youtube.com/@Dhakum-q4i" style="text-decoration:none;color:white">Youtube</a>
+	<hr>
+	<a href="mailto:dhakumweb@gmail.com" style="text-decoration:none;color:white"> Gmail</a>
+	</p>
+	</div>
+</div>
+    <footer>
+        <p>&copy; 2024 Dhakum. All Rights Reserved.</p>
+    </footer>
+	
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
